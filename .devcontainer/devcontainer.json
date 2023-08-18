@@ -41,7 +41,17 @@
         "vsls-contrib.codetour"
       ],
       "settings": {
-        "git.openRepositoryInParentFolders": "always"
+        "git.openRepositoryInParentFolders": "always",
+        "files.exclude": {
+          "**/.git": true,
+          "**/.svn": true,
+          "**/.hg": true,
+          "**/CVS": true,
+          "**/.DS_Store": true,
+          "**/Thumbs.db": true,
+          "**/*.crswap": true,
+          "**/.devcontainer": true
+        }
       }
     }
   }
